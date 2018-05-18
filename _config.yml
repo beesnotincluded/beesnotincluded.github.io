@@ -16,7 +16,7 @@
 title: Bees Not Included
 email: chris@beesnotincluded.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Make cool s**t and put it on the internet
+  Make cool stuff and put it on the internet
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: beesnotincluded
@@ -24,6 +24,9 @@ github_username:  beesnotincluded
 
 # Build settings
 markdown: kramdown
+kramdown:
+highlighter: rouge
+
 theme: minima
 plugins:
   - jekyll-feed
