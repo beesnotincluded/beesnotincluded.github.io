@@ -44,4 +44,4 @@ exclude:
    - vendor/ruby/
    - .idea/
 
-google_analytics: yes
+google_analytics: UA-119552540-1
